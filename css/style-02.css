@@ -1,0 +1,29 @@
+fieldset {
+    box-sizing: border-box;
+
+    margin-bottom: 0.4rem;
+
+    border: 1px solid orange;
+    background-color: cornsilk;
+}
+
+input[type="checkbox"] + label {
+    background-color: deepskyblue;
+
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+ol {
+    padding-left: 2rem;
+
+    /*list-style-type: decimal;*/
+    list-style: decimal-leading-zero inside;
+    list-style-position: outside;
+
+    /*background-color: cyan;*/
+}
+
+.quiz__question {
+    display: inline-block;
+}
