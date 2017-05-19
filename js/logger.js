@@ -1,15 +1,19 @@
-// 'use strict';
+/* jshint esversion: 6 */
+/* exported oLogger */
+
+'use strict';
+
 
 // debugger;
 
-var oLogger = {
+let oLogger = {
     isSysLog : true, // TRUE, by default
-    sysLogPrefix : "SysLog ",
+    sysLogPrefix : 'SysLog ',
     logLevel : 'INFO',  // INFO (* default), SYSTEM, ERROR
 
     log : function(message) {
         if(this.isSysLog) {
-            console.log(this.sysLogPrefix + "{" + this.logLevel + "} :: " + message);
+            console.log(this.sysLogPrefix + '{' + this.logLevel + '} :: ' + message);
             return true;
         }
         return false;
