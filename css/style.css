@@ -8,8 +8,10 @@
     padding-top: 1.5rem; /* 24px = 1.5rem */
     padding-bottom: 3.75rem;    /* 60px = 3.75rem */
 
-    width: 50rem;    /* 800px = 50rem */
-    height: 37.5rem;    /* 600px = 37.5rem */
+    /*800px = 50rem */
+    width: 50rem;
+    /* 600px = 37.5rem */
+    /*height: 37.5rem;*/
 
     /* Test */
     /* my own mild green-colour, like asalad */
@@ -23,8 +25,10 @@
 
     margin: 0 auto;
 
-    width: 38.125rem;    /* 610px = 38.125rem */
-    height: 32.1875rem;    /* 515px = 32.1875rem */
+    /* 610px = 38.125rem */
+    width: 38.125rem;
+    /* 515px = 32.1875rem */
+    /*height: 32.1875rem;*/
 
     /* Test */
     /* my own mild green-colour, like asalad */
@@ -75,6 +79,8 @@
 .question__answer {
     margin-bottom: 0.375rem; /* 6px = 0.375rem */
 
+    padding-left: 1rem;
+
     line-height: 1.125rem;    /* 18px = 1.125rem */
 }
 
@@ -83,11 +89,13 @@ label[for^="q"] {
     position: relative;
 
     padding-left: 1.75rem;    /* 28px = 1.75rem */
+    padding-right: 2rem;
 
     font: 1rem/1 "Tahoma", sans-serif;
 
     /* Test mark-Up */
-    background-color: springgreen;
+    /*background-color: springgreen;*/
+    background-color: rgba(0, 246, 255, 0.23);
 }
 
 input[id^="q"] {
